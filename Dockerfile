@@ -1,1 +1,3 @@
-FROM python:3.9-slim\nCOPY app.py /\nCMD ['python', '/app.py']
+FROM python:3.9-slim
+COPY app.py /
+CMD ['python', '/app.py']
